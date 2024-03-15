@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <h1 class="title">Регистрация</h1>
+            <div class="wrapper-input">
+                <label>Почта</label>
+                <input type="text" />
+                <label>Логин</label>
+                <input type="text" />
+                <label>Имя</label>
+                <input type="text" />
+                <label>Фамилия</label>
+                <input type="text" />
+                <label>Телефон</label>
+                <input type="number" />
+                <label>Пароль</label>
+                <input type="password" required />
+                <label>Пароль (ещё раз)</label>
+                <input type="password" name="psw-repeat" required>
+            </div>
+
+            <form action="../chat/chat.html" target="_self"><button class="reg">Зарегистрироваться</button></form>
+            <form class="sign-form" action="../sign/sign.html" target="_self"><button class="sign" >Войти</button></form>
+        </div>
+    </div>
+</body>
+</html>
