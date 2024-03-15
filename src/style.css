@@ -1,6 +1,15 @@
+.title {
+  margin-top: 50px;
+  font-size: 44px;
+  text-align: center;
+}
 
+/*body {*/
+/*  background: lightgrey;*/
+/*}*/
 
 .main {
+  margin-top: 44px;
   display: flex;
   justify-content: center;
 }
@@ -21,4 +30,10 @@ button {
   color: #fff;
   width: 280px;
   height: 37px;
+  cursor: pointer;
+
+
+  &:hover {
+    background-color: #6892FAFF;
+  }
 }
